@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+body{
+    height: 95vh;
+    width: 90vw;
+    background-image: url(https://portalpalotina.com.br/wp-content/uploads/2024/05/a9332042-c296-49e2-ab0e-5cbf27dab3c8.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 98.5vw;
+    background-color: rgba(58, 52, 52, 0.397);
+    color: #4bb2b1;
+    text-align: center;
+    font-variant: small-caps;
+    padding: 10px;
+}
+
+main{
+    text-align: center;
+    padding-left: 60px;
+}
+
+main h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.letras{
+    color: white;
+}
+
+main p{
+    font-size: 1.2em;
+    margin: auto;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    text-align: justify;
+
+}
+main img{
+    width: 398px;
+    height: 398px;
+    display: inline;
+    margin-left: 100px;
+}
+
+
+footer{
+    width: 99.2vw;
+    background-color: rgba(58, 52, 52, 0.397);
+    color: white;
+    text-align: center;
+    font-size: 0.9em;
+    padding: 5px;
+} 
