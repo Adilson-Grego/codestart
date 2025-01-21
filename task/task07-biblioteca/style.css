@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section div.top{
+    margin-bottom: 30px;
+}
+
+section div.centro{
+    margin-bottom: 30px;
+}
+
+section div.centro h2, li{
+    margin: 10px;
+}
+
+section div.baixo label, input{
+    margin: 5px;
+}
+
+section div.baixo button{
+    padding: 10px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+}
