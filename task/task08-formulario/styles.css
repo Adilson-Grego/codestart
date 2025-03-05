@@ -1,0 +1,9 @@
+.etapa {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.etapa.oculto {
+    opacity: 0;
+    pointer-events: none;
+}
