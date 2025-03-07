@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(img/img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100Vh;
+    background-color: gray;
+}
+
+#relogio{
+    padding: 20px;
+    background-color: #212121a2;
+    color: #fff;
+    font-size: 48px;
+    border-radius: 10px;
+    text-align: center;
+}
