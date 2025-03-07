@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: gray;
+}
+
+img{
+    width: 40rem !important;
+    height: 28rem;
+}
+
+.comum{
+    width: 40rem !important;
+}
