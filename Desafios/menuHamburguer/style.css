@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 25px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 3rem;
+    position: relative;
+    z-index: 1001;
+}
+.menu-btn span {
+    display: block;
+    height: 4px;
+    width: 100%;
+    background-color: black;
+    transition: 0.3s;
+}
+.menu-btn.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+.menu-btn.active span:nth-child(2) {
+    opacity: 0;
+}
+.menu-btn.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+.menu {
+    background-color: #607D8B;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    padding-top: 20px;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    opacity: 0;
+    transform: translateY(-10px);
+    z-index: 1000;
+}
+.menu.show {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 4rem 0 0 0;
+    text-align: center;
+}
+.menu ul li {
+    padding: 20px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+.menu ul li:hover {
+    background-color: #455A64;
+}
