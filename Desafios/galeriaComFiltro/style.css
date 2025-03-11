@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.buttons {
+    margin: 50px 0 20px 0;
+}
+button {
+    background-color: #FFCA28;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 600px;
+    margin: auto;
+}
+.galeria img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.hidden {
+    display: none;
+}
